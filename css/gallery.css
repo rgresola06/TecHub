@@ -1,0 +1,33 @@
+body{
+    background: -webkit-linear-gradient(left, #42275a , #734b6d);
+}
+img {
+	max-width:100%;
+}
+.gallery img {
+	background-color:#734b6d;
+	padding:15px;
+	width:100%;
+	box-shadow:0 0 15px rgba(0,0,0,3);
+	cursor:pointer;
+}
+
+#gallery-modal .modal-img {
+	width:100%
+}
+.navbar-light .navbar-brand {
+    color: #000;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #000;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+.nav-item {
+	font-size: 20px;
+}
